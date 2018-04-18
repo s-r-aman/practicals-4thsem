@@ -16,6 +16,6 @@ class C : public B
 
 int main()
 {
-  A c;
-  std::cout << "The value of a is " << c.a << std::endl;
+  C a;
+  std::cout << "The value of a is " << a.a << std::endl;
 }
