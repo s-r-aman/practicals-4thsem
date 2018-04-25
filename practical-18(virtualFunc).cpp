@@ -5,7 +5,7 @@ class A
 public:
   virtual void member(void)
   {
-    std::cout << "This is from class A" << std::endl;
+    std::cout << "This is called from class A" << std::endl;
   }
 };
 
@@ -14,7 +14,7 @@ class B : public A
 public:
   void member(void)
   {
-    std::cout << "This is from class B" << std::endl;
+    std::cout << "This is called from class B" << std::endl;
   }
 };
 
